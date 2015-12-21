@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+
+		<meta charset="iso-8859-1">
+
+		<title>La cuenta atr&aacute;s ha empezado</title>
+
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+
+		<script src="scripts/jquery-1.4.4.js"></script>
+		<script src="scripts/jquery.lwtCountdown-1.0.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$('#countdown').countDown({
+					targetDate: {
+						'day': 		1,
+						'month': 	1,
+						'year': 	2013,
+						'hour': 	0,
+						'min': 		0,
+						'sec': 		0
+					}
+				});
+				
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="Contenedor">
+
+			La cuenta atr&aacute;s ha comenzado. Nuestro nuevo sitio web ser&aacute; publicado pr&oacute;ximamente:
+
+			<div id="countdown">
+
+				<div class="dash weeks_dash">
+					<span class="dash_title">semanas</span>
+					<div class="digit">0</div>
+					<div class="digit">0</div>
+				</div>
+
+				<div class="dash days_dash">
+					<span class="dash_title">d&iacute;as</span>
+					<div class="digit">0</div>
+					<div class="digit">0</div>
+				</div>
+
+				<div class="dash hours_dash">
+					<span class="dash_title">horas</span>
+					<div class="digit">0</div>
+					<div class="digit">0</div>
+				</div>
+
+				<div class="dash minutes_dash">
+					<span class="dash_title">minutos</span>
+					<div class="digit">0</div>
+					<div class="digit">0</div>
+				</div>
+
+				<div class="dash seconds_dash">
+					<span class="dash_title">segundos</span>
+					<div class="digit">0</div>
+					<div class="digit">0</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="twitstat">
+			<ul id="twitter_update_list"></ul>
+			<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+			<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/david5287.json?callback=twitterCallback2&amp;count=1"></script>
+		</div>
+
+	</body>
+
+</html>

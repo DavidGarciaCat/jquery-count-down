@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+* {
+	font-family: Verdana, Tahoma, sans-serif, serif ;
+}
+
+body {
+	background-color: #e9eaec ;
+}
+
+#Contenedor {
+	background-color: #f4f4f4 ;
+	border-radius: 5px ;
+	box-shadow: 0 0 10px #000 ;
+	margin: auto ;
+	margin-top: 100px ;
+	padding: 50px ;
+	text-align: center ;
+	width: 800px ;
+}
+
+/** Countdown */
+
+#countdown {
+	width:770px;
+	height:120px;
+	margin: auto ;
+	margin-top: 50px ;
+}
+.dash {
+	width: 127px;
+	height: 125px;
+	background: transparent url(../images/box.jpg) 0 0 no-repeat;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+
+.dash .digit {
+	font-size: 60px;
+	font-weight: bold;
+	float: left;
+	width: 45px;
+	text-align: center;
+	font-family: Arial;
+	color: #2f2e2e;
+	position: relative;
+	margin: 10px 0 0 13px;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	text-align:center;
+	font-weight:bold;
+	width:127px;
+	font-size: 12px;
+	color: #2f2e2e;
+	
+}
+
+/** Twitter status feed */
+
+#twitstat {
+background: url(../images/twitterbar.jpg) no-repeat;
+background-repeat: no-repeat;
+width:695px;
+min-height:93px;
+color:#2f2e2e;
+font-size:14px;
+padding: 0 20px 0 70px;
+margin:0px auto;
+margin-top: 50px ;
+margin-bottom: 50px ;
+overflow:hidden;
+}
+
+#twitstat a{
+color:#2f2e2e;
+font-weight:bold;
+}
+
+#twitstat a:hover{
+color:#005ab3;
+}
+
+#twitstat ul {
+list-style:none;
+padding-top:15px;
+}
+
